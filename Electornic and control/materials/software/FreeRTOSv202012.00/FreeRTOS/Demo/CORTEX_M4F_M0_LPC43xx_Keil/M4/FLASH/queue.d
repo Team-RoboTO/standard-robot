@@ -1,0 +1,11 @@
+.\flash\queue.o: ..\..\..\Source\queue.c
+.\flash\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\queue.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\queue.o: ..\M4\FreeRTOSConfig.h
+.\flash\queue.o: ..\system\LPC43xx.h
+.\flash\queue.o: ..\system\core_cm4.h
+.\flash\queue.o: ..\system\core_cmInstr.h
+.\flash\queue.o: ..\system\core_cmFunc.h

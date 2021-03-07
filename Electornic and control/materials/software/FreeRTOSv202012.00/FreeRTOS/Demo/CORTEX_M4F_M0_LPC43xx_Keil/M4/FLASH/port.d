@@ -1,0 +1,9 @@
+.\flash\port.o: ..\..\..\Source\portable\RVDS\ARM_CM4F\port.c
+.\flash\port.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\port.o: ..\M4\FreeRTOSConfig.h
+.\flash\port.o: ..\system\LPC43xx.h
+.\flash\port.o: ..\system\core_cm4.h
+.\flash\port.o: ..\system\core_cmInstr.h
+.\flash\port.o: ..\system\core_cmFunc.h

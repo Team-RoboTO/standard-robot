@@ -1,0 +1,10 @@
+.\flash\death.o: ..\..\Common\Minimal\death.c
+.\flash\death.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\death.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\death.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\death.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\death.o: ..\M4\FreeRTOSConfig.h
+.\flash\death.o: ..\system\LPC43xx.h
+.\flash\death.o: ..\system\core_cm4.h
+.\flash\death.o: ..\system\core_cmInstr.h
+.\flash\death.o: ..\system\core_cmFunc.h

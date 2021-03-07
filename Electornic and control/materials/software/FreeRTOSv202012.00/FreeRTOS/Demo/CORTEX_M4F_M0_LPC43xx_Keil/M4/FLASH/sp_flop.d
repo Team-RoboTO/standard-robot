@@ -1,0 +1,11 @@
+.\flash\sp_flop.o: ..\..\Common\Minimal\sp_flop.c
+.\flash\sp_flop.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\sp_flop.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\flash\sp_flop.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\sp_flop.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\sp_flop.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\sp_flop.o: ..\M4\FreeRTOSConfig.h
+.\flash\sp_flop.o: ..\system\LPC43xx.h
+.\flash\sp_flop.o: ..\system\core_cm4.h
+.\flash\sp_flop.o: ..\system\core_cmInstr.h
+.\flash\sp_flop.o: ..\system\core_cmFunc.h

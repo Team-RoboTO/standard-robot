@@ -1,0 +1,9 @@
+.\flash\partest.o: ParTest.c
+.\flash\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\partest.o: ..\platform\M4_PeripheralLibraryFiles\lpc43xx_i2c.h
+.\flash\partest.o: ..\system\lpc43xx.h
+.\flash\partest.o: ..\system\core_cm4.h
+.\flash\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\partest.o: ..\system\core_cmInstr.h
+.\flash\partest.o: ..\system\core_cmFunc.h

@@ -1,0 +1,10 @@
+.\flash\blockq.o: ..\..\Common\Minimal\BlockQ.c
+.\flash\blockq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\blockq.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\blockq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\blockq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\blockq.o: ..\M4\FreeRTOSConfig.h
+.\flash\blockq.o: ..\system\LPC43xx.h
+.\flash\blockq.o: ..\system\core_cm4.h
+.\flash\blockq.o: ..\system\core_cmInstr.h
+.\flash\blockq.o: ..\system\core_cmFunc.h

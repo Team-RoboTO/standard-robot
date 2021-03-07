@@ -1,0 +1,10 @@
+.\flash\list.o: ..\..\..\Source\list.c
+.\flash\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\list.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\list.o: ..\M4\FreeRTOSConfig.h
+.\flash\list.o: ..\system\LPC43xx.h
+.\flash\list.o: ..\system\core_cm4.h
+.\flash\list.o: ..\system\core_cmInstr.h
+.\flash\list.o: ..\system\core_cmFunc.h

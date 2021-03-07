@@ -1,0 +1,10 @@
+.\flash\heap_2.o: ..\..\..\Source\portable\MemMang\heap_2.c
+.\flash\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\heap_2.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\heap_2.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\heap_2.o: ..\M4\FreeRTOSConfig.h
+.\flash\heap_2.o: ..\system\LPC43xx.h
+.\flash\heap_2.o: ..\system\core_cm4.h
+.\flash\heap_2.o: ..\system\core_cmInstr.h
+.\flash\heap_2.o: ..\system\core_cmFunc.h

@@ -1,0 +1,250 @@
+Dependencies for Project 'M4', Target 'LPC43xx_M4_FLASH': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (..\platform\startup_LPC43xx.s)(0x5FD90612)(--cpu Cortex-M4.fp.sp --li -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx--pd "__UVISION_VERSION SETA 529" --pd "NO_CRP SETA 1" --pd "EXT_FLASH SETA 1"-o .\flash\startup_lpc43xx.o --depend .\flash\startup_lpc43xx.d)
+F (..\system\system_LPC43xx.c)(0x5FD90613)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\system_lpc43xx.o --omf_browse .\flash\system_lpc43xx.crf --depend .\flash\system_lpc43xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\system\core_cm4.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\core_cm4.o --omf_browse .\flash\core_cm4.crf --depend .\flash\core_cm4.d)
+F (..\system\emc_LPC43xx.c)(0x5FD90613)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\emc_lpc43xx.o --omf_browse .\flash\emc_lpc43xx.crf --depend .\flash\emc_lpc43xx.d)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\system\scu.c)(0x5FD90613)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\scu.o --omf_browse .\flash\scu.crf --depend .\flash\scu.d)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\system\fpu_init.c)(0x5FD90613)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\fpu_init.o --omf_browse .\flash\fpu_init.crf --depend .\flash\fpu_init.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+F (..\system\Hitex_Fast_Startup.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\hitex_fast_startup.o --omf_browse .\flash\hitex_fast_startup.crf --depend .\flash\hitex_fast_startup.d)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\platform\M4_PeripheralLibraryFiles\lpc43xx_emc.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\lpc43xx_emc.o --omf_browse .\flash\lpc43xx_emc.crf --depend .\flash\lpc43xx_emc.d)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\platform\platform_config.h)(0x5FD90612)()
+F (..\platform\platform_config.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\platform_config.o --omf_browse .\flash\platform_config.crf --depend .\flash\platform_config.d)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (.\main.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (.\ParTest.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\partest.o --omf_browse .\flash\partest.crf --depend .\flash\partest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B348A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (..\platform\M4_PeripheralLibraryFiles\lpc43xx_i2c.h)(0x5FD90612)
+I (..\system\lpc43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (.\RegTest.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\regtest.o --omf_browse .\flash\regtest.crf --depend .\flash\regtest.d)
+F (.\FreeRTOSConfig.h)(0x5FD90612)()
+F (..\..\..\Source\portable\RVDS\ARM_CM4F\port.c)(0x5FD90663)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\port.o --omf_browse .\flash\port.crf --depend .\flash\port.d)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\..\Source\portable\MemMang\heap_2.c)(0x5FD90663)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\heap_2.o --omf_browse .\flash\heap_2.crf --depend .\flash\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\..\Source\timers.c)(0x00000000)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\timers.o --omf_browse .\flash\timers.crf --depend .\flash\timers.d)
+F (..\..\..\Source\list.c)(0x5FD90663)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\list.o --omf_browse .\flash\list.crf --depend .\flash\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\..\Source\queue.c)(0x5FD90664)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\queue.o --omf_browse .\flash\queue.crf --depend .\flash\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\..\Source\tasks.c)(0x5FD90664)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\tasks.o --omf_browse .\flash\tasks.crf --depend .\flash\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\sp_flop.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\sp_flop.o --omf_browse .\flash\sp_flop.crf --depend .\flash\sp_flop.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5D9B3482)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\BlockQ.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\blockq.o --omf_browse .\flash\blockq.crf --depend .\flash\blockq.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\blocktim.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\blocktim.o --omf_browse .\flash\blocktim.crf --depend .\flash\blocktim.d)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\countsem.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\countsem.o --omf_browse .\flash\countsem.crf --depend .\flash\countsem.d)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\death.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\death.o --omf_browse .\flash\death.crf --depend .\flash\death.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\dynamic.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\dynamic.o --omf_browse .\flash\dynamic.crf --depend .\flash\dynamic.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\flash.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\flash.o --omf_browse .\flash\flash.crf --depend .\flash\flash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\GenQTest.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\genqtest.o --omf_browse .\flash\genqtest.crf --depend .\flash\genqtest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\integer.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\integer.o --omf_browse .\flash\integer.crf --depend .\flash\integer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\PollQ.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\pollq.o --omf_browse .\flash\pollq.crf --depend .\flash\pollq.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\recmutex.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\recmutex.o --omf_browse .\flash\recmutex.crf --depend .\flash\recmutex.d)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\..\Common\Minimal\semtest.c)(0x5FD90615)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\semtest.o --omf_browse .\flash\semtest.crf --depend .\flash\semtest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B348A)
+I (..\..\..\Source\include\FreeRTOS.h)(0x5FD90663)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B3488)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\M4\FreeRTOSConfig.h)(0x5FD90612)
+I (..\system\LPC43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\platform\M4_PeripheralLibraryFiles\lpc43xx_i2c.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\lpc43xx_i2c.o --omf_browse .\flash\lpc43xx_i2c.crf --depend .\flash\lpc43xx_i2c.d)
+I (..\platform\M4_PeripheralLibraryFiles\lpc43xx_i2c.h)(0x5FD90612)
+I (..\system\lpc43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)
+F (..\platform\M4_PeripheralLibraryFiles\lpc43xx_cgu.c)(0x5FD90612)(-c --cpu Cortex-M4.fp.sp -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\system -I ..\platform -I ..\..\Common\include -I ..\M4 -I ..\..\..\Source\include -I ..\..\..\Source\portable\RVDS\ARM_CM4F -I ..\platform\M4_PeripheralLibraryFiles --no_allow_fpreg_for_nonfpdata-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\NXP\LPC17xx-D__UVISION_VERSION="529" -DCORE_M4-o .\flash\lpc43xx_cgu.o --omf_browse .\flash\lpc43xx_cgu.crf --depend .\flash\lpc43xx_cgu.d)
+I (..\platform\M4_PeripheralLibraryFiles\lpc_types.h)(0x5FD90612)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
+I (..\system\scu.h)(0x5FD90613)
+I (..\platform\M4_PeripheralLibraryFiles\lpc43xx_cgu.h)(0x5FD90612)
+I (..\system\lpc43xx.h)(0x5FD90612)
+I (..\system\core_cm4.h)(0x5FD90612)
+I (..\system\core_cmInstr.h)(0x5FD90612)
+I (..\system\core_cmFunc.h)(0x5FD90612)

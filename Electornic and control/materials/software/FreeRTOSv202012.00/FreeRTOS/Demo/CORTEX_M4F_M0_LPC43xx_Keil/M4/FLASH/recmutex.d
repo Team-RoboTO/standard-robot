@@ -1,0 +1,9 @@
+.\flash\recmutex.o: ..\..\Common\Minimal\recmutex.c
+.\flash\recmutex.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\recmutex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\recmutex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\recmutex.o: ..\M4\FreeRTOSConfig.h
+.\flash\recmutex.o: ..\system\LPC43xx.h
+.\flash\recmutex.o: ..\system\core_cm4.h
+.\flash\recmutex.o: ..\system\core_cmInstr.h
+.\flash\recmutex.o: ..\system\core_cmFunc.h

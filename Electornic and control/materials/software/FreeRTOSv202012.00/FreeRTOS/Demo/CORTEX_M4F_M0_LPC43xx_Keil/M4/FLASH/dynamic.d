@@ -1,0 +1,10 @@
+.\flash\dynamic.o: ..\..\Common\Minimal\dynamic.c
+.\flash\dynamic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\dynamic.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\dynamic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\dynamic.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\dynamic.o: ..\M4\FreeRTOSConfig.h
+.\flash\dynamic.o: ..\system\LPC43xx.h
+.\flash\dynamic.o: ..\system\core_cm4.h
+.\flash\dynamic.o: ..\system\core_cmInstr.h
+.\flash\dynamic.o: ..\system\core_cmFunc.h

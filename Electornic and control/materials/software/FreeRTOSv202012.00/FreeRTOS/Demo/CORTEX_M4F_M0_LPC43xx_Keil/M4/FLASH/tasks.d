@@ -1,0 +1,11 @@
+.\flash\tasks.o: ..\..\..\Source\tasks.c
+.\flash\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\flash\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\tasks.o: ..\..\..\Source\include\FreeRTOS.h
+.\flash\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\tasks.o: ..\M4\FreeRTOSConfig.h
+.\flash\tasks.o: ..\system\LPC43xx.h
+.\flash\tasks.o: ..\system\core_cm4.h
+.\flash\tasks.o: ..\system\core_cmInstr.h
+.\flash\tasks.o: ..\system\core_cmFunc.h
