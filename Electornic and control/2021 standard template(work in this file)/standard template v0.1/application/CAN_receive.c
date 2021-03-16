@@ -40,6 +40,7 @@ motor data,  0:chassis motor1 3508;1:chassis motor3 3508;2:chassis motor3 3508;3
 4:yaw云台电机 6020电机; 5:pitch云台电机 6020电机; 6:拨弹电机 2006电机*/
 motor_measure_t motor_chassis[7];
 
+
 static CAN_TxHeaderTypeDef  gimbal_tx_message;
 static uint8_t              gimbal_can_send_data[8];
 static CAN_TxHeaderTypeDef  chassis_tx_message;
@@ -68,8 +69,8 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
         case CAN_3508_M2_ID:
         case CAN_3508_M3_ID:
         case CAN_3508_M4_ID:
-        case CAN_YAW_MOTOR_ID:
-        case CAN_PIT_MOTOR_ID:
+        case CAN_3508_MOTOR1_ID:
+        case CAN_3508_MOTOR2_ID:
         case CAN_TRIGGER_MOTOR_ID:
         {
             static uint8_t i = 0;
@@ -104,22 +105,22 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
   * @param[in]      rev: (0x208) 保留，电机控制电流
   * @retval         none
   */
-void CAN_cmd_gimbal(int16_t yaw, int16_t pitch, int16_t shoot, int16_t rev)
+void CAN_cmd_gimbal(int16_t MotorL, int16_t MotorR, int16_t MotorB, int16_t rev)
 {
     uint32_t send_mail_box;
-    gimbal_tx_message.StdId = CAN_GIMBAL_ALL_ID;
+    gimbal_tx_message.StdId = 0x1ff;
     gimbal_tx_message.IDE = CAN_ID_STD;
     gimbal_tx_message.RTR = CAN_RTR_DATA;
     gimbal_tx_message.DLC = 0x08;
-    gimbal_can_send_data[0] = (yaw >> 8);
-    gimbal_can_send_data[1] = yaw;
-    gimbal_can_send_data[2] = (pitch >> 8);
-    gimbal_can_send_data[3] = pitch;
-    gimbal_can_send_data[4] = (shoot >> 8);
-    gimbal_can_send_data[5] = shoot;
+    gimbal_can_send_data[0] = (MotorL >> 8);
+    gimbal_can_send_data[1] = MotorL;
+    gimbal_can_send_data[2] = (MotorR >> 8);
+    gimbal_can_send_data[3] = MotorR;
+    gimbal_can_send_data[4] = (MotorB >> 8);
+    gimbal_can_send_data[5] = MotorB;
     gimbal_can_send_data[6] = (rev >> 8);
     gimbal_can_send_data[7] = rev;
-    HAL_CAN_AddTxMessage(&CHASSIS_CAN, &gimbal_tx_message, gimbal_can_send_data, &send_mail_box);
+    HAL_CAN_AddTxMessage(&hcan1, &gimbal_tx_message, gimbal_can_send_data, &send_mail_box);
 }
 
 /**
@@ -135,7 +136,7 @@ void CAN_cmd_gimbal(int16_t yaw, int16_t pitch, int16_t shoot, int16_t rev)
 void CAN_cmd_chassis_reset_ID(void)
 {
     uint32_t send_mail_box;
-    chassis_tx_message.StdId = 0x700;
+    chassis_tx_message.StdId = 0x200;
     chassis_tx_message.IDE = CAN_ID_STD;
     chassis_tx_message.RTR = CAN_RTR_DATA;
     chassis_tx_message.DLC = 0x08;
@@ -171,7 +172,7 @@ void CAN_cmd_chassis_reset_ID(void)
 void CAN_cmd_chassis(int16_t motor1, int16_t motor2, int16_t motor3, int16_t motor4)
 {
     uint32_t send_mail_box;
-    chassis_tx_message.StdId = 0x1ff;
+    chassis_tx_message.StdId = 0x200;
     chassis_tx_message.IDE = CAN_ID_STD;
     chassis_tx_message.RTR = CAN_RTR_DATA;
     chassis_tx_message.DLC = 0x08;

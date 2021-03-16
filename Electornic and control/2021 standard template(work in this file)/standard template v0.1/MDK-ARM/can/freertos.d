@@ -53,4 +53,5 @@ can\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 can\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 can\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 can\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+can\freertos.o: ../Inc/tim.h
 can\freertos.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

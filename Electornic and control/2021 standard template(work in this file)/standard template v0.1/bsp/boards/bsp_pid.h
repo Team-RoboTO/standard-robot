@@ -89,6 +89,7 @@ extern pid_t pid_yaw;
 extern pid_t pid_pit_omg;
 extern pid_t pid_yaw_omg;	
 extern pid_t pid_spd[4];
+extern pid_t pid_spd_shooter[4];
 extern pid_t pid_yaw_alfa;
 extern pid_t pid_chassis_angle;
 extern pid_t pid_poke;

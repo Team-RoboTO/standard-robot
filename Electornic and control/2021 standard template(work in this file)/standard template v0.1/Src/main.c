@@ -23,6 +23,7 @@
 #include "cmsis_os.h"
 #include "can.h"
 #include "dma.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -96,9 +97,14 @@ int main(void)
   MX_CAN1_Init();
   MX_DMA_Init();
   MX_USART1_UART_Init();
+  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
 	can_filter_init();
 	dbus_uart_init();
+	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1); // start pwm output
+	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_4);
 	HAL_GPIO_WritePin(GPIOH, GPIO_PIN_2|GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5, GPIO_PIN_SET);
   /* USER CODE END 2 */
 

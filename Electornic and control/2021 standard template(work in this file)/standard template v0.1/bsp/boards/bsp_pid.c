@@ -207,6 +207,7 @@ void PID_struct_init(
 pid_t pid_omg;
 pid_t pid_pos;
 pid_t pid_spd[4];
+pid_t pid_spd_shooter[4];
 
 
 void pid_test_init(){

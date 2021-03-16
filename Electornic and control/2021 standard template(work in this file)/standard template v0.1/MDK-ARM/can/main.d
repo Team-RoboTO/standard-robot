@@ -55,4 +55,5 @@ can\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
 can\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 can\main.o: ../Inc/can.h
 can\main.o: ../Inc/dma.h
+can\main.o: ../Inc/tim.h
 can\main.o: ../Inc/gpio.h
